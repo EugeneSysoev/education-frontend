@@ -1,0 +1,16 @@
+{
+  "name": "education-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/*.test.js",
+    "test:users": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/buildActiveUserSummaries.test.js",
+    "test:store": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/createTaskStore.test.js",
+    "test:dashboard": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/loadDashboard.test.js",
+    "test:watch": "node --test --test-isolation=none --watch javascript/diagnostic/day-01/tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

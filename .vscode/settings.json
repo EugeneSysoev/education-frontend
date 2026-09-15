@@ -1,0 +1,8 @@
+{
+  "codeium.enableConfig": {
+    "*": false
+  },
+  "codeium.enableInComments": false,
+  "codeium.disableSupercomplete": true,
+  "codeium.disableTabJump": true
+}

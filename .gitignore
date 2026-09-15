@@ -1,0 +1,12 @@
+node_modules/
+.npm-cache/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+.DS_Store
+
+# Personal learning notes (kept only on this computer)
+learning-log/
+market-prep/
