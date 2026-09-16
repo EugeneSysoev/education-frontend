@@ -1,23 +1,20 @@
 import './App.css'
-import { Accordion } from './exercises/accordion/Accordion'
-import { accordionItems } from './exercises/accordion/data'
+import { Timer } from './exercises/timer/Timer'
 
 function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
         <p className="eyebrow">React Practice Sprint</p>
-        <h1>Accordion</h1>
+        <h1>Timer</h1>
         <p>
-          Stage A: independent panels. Stage B: lift state so only one panel can
-          be open.
+          Practice state, effects, cleanup, and functional state updates.
         </p>
       </header>
 
-      <Accordion items={accordionItems} />
+      <Timer />
     </main>
   )
 }
 
 export default App
-
