@@ -1,20 +1,18 @@
-import './App.css'
-import { Timer } from './exercises/timer/Timer'
+import "./App.css";
+import { HolidaysApp } from "./exercises/holidays-app/HolidaysApp";
 
 function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
         <p className="eyebrow">React Practice Sprint</p>
-        <h1>Timer</h1>
-        <p>
-          Practice state, effects, cleanup, and functional state updates.
-        </p>
+        <h1>HolidaysApp</h1>
+        <p>Practice server state, API requests, and query caching.</p>
       </header>
 
-      <Timer />
+      <HolidaysApp />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
