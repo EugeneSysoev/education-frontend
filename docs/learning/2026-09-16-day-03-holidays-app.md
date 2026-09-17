@@ -88,7 +88,9 @@
 - `npm test`: 8 тестов пройдено, 0 ошибок.
 - `npm run build:sandbox`: успешно.
 - `npm run lint`: успешно.
-- Commit и push: выполняются при закрытии дня; итог фиксируется отдельным обновлением журнала.
+- Основной commit: `ba1f399` (`feat: add holidays app and learning records`).
+- Push: commit `ba1f399` успешно отправлен в `origin/main` репозитория `EugeneSysoev/education-frontend`.
+- Особенность среды: `.git` исходного checkout недоступна Codex для записи из-за Windows ACL. Commit создан от актуального `origin/main` через свежий clone и отправлен обычным push без переписывания истории.
 
 ## Переход к дню 4
 
