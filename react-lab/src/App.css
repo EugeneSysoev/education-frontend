@@ -76,6 +76,74 @@
   color: #505867;
 }
 
+.todo-app {
+  display: grid;
+  gap: 24px;
+}
+
+.todo-app h2,
+.todo-app p {
+  margin: 0;
+}
+
+.exercise-note {
+  margin-top: 8px !important;
+  color: #5e6675;
+}
+
+.todo-form {
+  display: grid;
+  gap: 8px;
+}
+
+.todo-form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-form-row input {
+  min-width: 0;
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #cbd1dc;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.todo-form-row button,
+.todo-list button {
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #5b4cf0;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.todo-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 14px;
+  border: 1px solid #dfe3ea;
+  border-radius: 10px;
+}
+
+.todo-list button {
+  background: #e8e6ff;
+  color: #3126a8;
+}
+
 @media (max-width: 560px) {
   .app-shell {
     padding: 36px 0;
@@ -84,5 +152,9 @@
   .exercise-card {
     padding: 16px;
   }
-}
 
+  .todo-form-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

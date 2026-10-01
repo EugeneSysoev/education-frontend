@@ -1,10 +1,20 @@
 # `useLocalStorage` exercise
 
+## Источник и место в очереди
+
+[React Practice Calendar — custom hook for localStorage](https://reactpractice.dev/exercise/create-a-custom-hook-that-allows-saving-items-to-the-local-storage/)
+
+В календаре это Day 3. Day 1 (Holidays App) и Day 2 (Accordion) уже выполнены,
+поэтому это следующее невыполненное задание по порядку.
+
 ## Цель
 
 Отработать lazy initialization, синхронизацию React state с внешней системой, обработку ошибок и generics в TypeScript.
 
 ## Требования
+
+Стартовый [`TodoApp.tsx`](TodoApp.tsx) умеет добавлять и удалять задачи, но
+хранит их в обычном `useState`, поэтому данные теряются при перезагрузке.
 
 Создайте `useLocalStorage.ts` с хуком:
 
@@ -21,6 +31,7 @@ useLocalStorage<T>(key, initialValue)
 5. Поддерживать строки, числа, boolean, массивы и объекты через generic `T`.
 6. Не использовать `any` и type assertions `as`.
 7. Не читать `localStorage` заново на каждом рендере.
+8. Подключить хук к `TodoApp` вместо `useState` для массива задач.
 
 ## Перед кодом
 
@@ -35,7 +46,9 @@ useLocalStorage<T>(key, initialValue)
 
 ## Самостоятельная попытка
 
-Сначала создайте сигнатуру и запишите псевдокод чтения и записи. Затем реализуйте рабочий вариант. Не добавляйте компонент-демонстрацию до review самого хука.
+Сначала создайте сигнатуру и запишите псевдокод чтения и записи. Затем покажите
+план на review. После review реализуйте рабочий вариант и подключите его к уже
+готовому `TodoApp`.
 
 ## Проверка
 

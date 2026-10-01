@@ -22,6 +22,8 @@
 - `learning-log/` — матрица навыков и прежние журнальные записи.
 - `market-prep/` — подготовка к техническим собеседованиям.
 
+Текущий блок закрепления JavaScript: [`javascript/practice/gap-closing-01`](javascript/practice/gap-closing-01/README.md).
+
 ## Команды первого дня
 
 ```bash

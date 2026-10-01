@@ -1,16 +1,16 @@
 import "./App.css";
-import { HolidaysApp } from "./exercises/holidays-app/HolidaysApp";
+import { TodoApp } from "./exercises/use-local-storage/TodoApp";
 
 function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
         <p className="eyebrow">React Practice Sprint</p>
-        <h1>HolidaysApp</h1>
-        <p>Practice server state, API requests, and query caching.</p>
+        <h1>Persistent Todo</h1>
+        <p>Build a reusable hook that synchronizes React state with localStorage.</p>
       </header>
 
-      <HolidaysApp />
+      <TodoApp />
     </main>
   );
 }

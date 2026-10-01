@@ -94,4 +94,7 @@
 
 ## Переход к дню 4
 
-Следующий план: [день 4 — API boundary and type guards](2026-09-18-day-04-api-boundary.md). Первый шаг — изменить data layer так, чтобы результат `response.json()` сначала имел тип `unknown`, а затем проверялся до возврата из функции.
+Holidays App считается завершённым. После JS-блока обучение продолжается по
+очереди React Practice Calendar: Accordion уже выполнен в День 2, поэтому
+следующее невыполненное упражнение —
+[день 4: `useLocalStorage`](2026-09-18-day-04-javascript-and-local-storage.md).

@@ -5,6 +5,11 @@
   "type": "module",
   "scripts": {
     "test": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/*.test.js",
+    "test:practice": "node --test --test-isolation=none javascript/practice/gap-closing-01/tests/*.test.js",
+    "test:practice:products": "node --test --test-isolation=none javascript/practice/gap-closing-01/tests/buildAvailableProductSummaries.test.js",
+    "test:practice:theme": "node --test --test-isolation=none javascript/practice/gap-closing-01/tests/updateUserTheme.test.js",
+    "test:practice:scores": "node --test --test-isolation=none javascript/practice/gap-closing-01/tests/createScoreTracker.test.js",
+    "test:practice:widgets": "node --test --test-isolation=none javascript/practice/gap-closing-01/tests/loadOptionalWidgets.test.js",
     "test:users": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/buildActiveUserSummaries.test.js",
     "test:store": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/createTaskStore.test.js",
     "test:dashboard": "node --test --test-isolation=none javascript/diagnostic/day-01/tests/loadDashboard.test.js",
