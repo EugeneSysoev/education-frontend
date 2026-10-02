@@ -13,6 +13,8 @@
 
 Текущий день, история и следующий шаг находятся в [`docs/learning/README.md`](docs/learning/README.md). Новая сессия Codex начинает работу с [`AGENTS.md`](AGENTS.md).
 
+Интенсивный график с 2 октября, формат помощи, работа над пет-проектом и применение идей четырёх книг описаны в [`docs/learning/learning-system.md`](docs/learning/learning-system.md). Старт 2 октября в 08:00 подтверждён учеником; рабочий шаблон до 16:15 включает 7 часов активной работы и 75 минут отдыха. Даты и фокусы ближайших занятий — в [плане 2–8 октября](docs/learning/2026-10-02-week-plan.md).
+
 ## Структура
 
 - `javascript/` — диагностика и упражнения по JavaScript.
@@ -22,7 +24,7 @@
 - `learning-log/` — матрица навыков и прежние журнальные записи.
 - `market-prep/` — подготовка к техническим собеседованиям.
 
-Текущий блок закрепления JavaScript: [`javascript/practice/gap-closing-01`](javascript/practice/gap-closing-01/README.md).
+Активная практика 1 октября: [Hacker News](docs/learning/2026-10-01-hacker-news.md). С 2 октября главный фокус — [пет-проект ментора](docs/learning/2026-10-02-day-05-pet-project.md), пробелы закрываются по ходу реализации. Завершённый JS-блок остаётся доступен для короткого закрепления: [`javascript/practice/gap-closing-01`](javascript/practice/gap-closing-01/README.md).
 
 ## Команды первого дня
 

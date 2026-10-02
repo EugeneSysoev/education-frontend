@@ -1,16 +1,16 @@
 import "./App.css";
-import { TodoApp } from "./exercises/use-local-storage/TodoApp";
+import { HackerNewsApp } from "./exercises/hacker-news/HackerNewsApp";
 
 function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
         <p className="eyebrow">React Practice Sprint</p>
-        <h1>Persistent Todo</h1>
-        <p>Build a reusable hook that synchronizes React state with localStorage.</p>
+        <h1>HackerNewsApp</h1>
+        <p>Десять популярных публикаций.</p>
       </header>
 
-      <TodoApp />
+      <HackerNewsApp />
     </main>
   );
 }
