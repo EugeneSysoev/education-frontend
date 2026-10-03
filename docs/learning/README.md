@@ -13,7 +13,7 @@ GitHub: [EugeneSysoev/education-frontend](https://github.com/EugeneSysoev/educat
 | 3 | 2026-09-16–17 | Завершён | Fetching data: Holidays App | [День 3](2026-09-16-day-03-holidays-app.md) | [`holidays-app`](../../react-lab/src/exercises/holidays-app/README.md) |
 | 4 | 2026-09-18–2026-10-01 | Завершён | JavaScript gap closing → `useLocalStorage` | [День 4](2026-09-18-day-04-javascript-and-local-storage.md) | [`gap-closing-01`](../../javascript/practice/gap-closing-01/README.md), [`use-local-storage`](../../react-lab/src/exercises/use-local-storage/README.md) |
 | Доп. | 2026-10-01–02 | Завершено | Hacker News: связанные запросы и состояния | [Занятие 1 октября](2026-10-01-hacker-news.md) | [`hacker-news`](../../react-lab/src/exercises/hacker-news/README.md) |
-| 5 | 2026-10-02–03, поздний старт и перерыв | Kanban проверен; Git-сдача в процессе; TS и фильмы перенесены | Kanban с DnD Kit | [День 5](2026-10-02-day-05-pet-project.md) | [Kanban](../../react-lab/src/exercises/kanban/README.md) |
+| 5 | 2026-10-02–03, поздний старт и перерыв | Kanban проверен; Git-сдача заблокирована авторизацией; TS и фильмы перенесены | Kanban с DnD Kit | [День 5](2026-10-02-day-05-pet-project.md) | [Kanban](../../react-lab/src/exercises/kanban/README.md) |
 | 6 | 2026-10-05, план | Запланирован | Повторение Kanban → TS → поиск фильмов | [День 6](2026-10-05-day-06-typescript-and-movie-search.md) | Первый шаг — самостоятельное обновление статуса |
 
 ## Состояние программы
