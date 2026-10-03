@@ -1,16 +1,17 @@
 import "./App.css";
-import { HackerNewsApp } from "./exercises/hacker-news/HackerNewsApp";
+import { KanbanBoard } from "./exercises/kanban/KanbanBoard";
+
 
 function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
         <p className="eyebrow">React Practice Sprint</p>
-        <h1>HackerNewsApp</h1>
-        <p>Десять популярных публикаций.</p>
+        <h1>KanbanBoard</h1>
+        <p>Доска задач</p>
       </header>
 
-      <HackerNewsApp />
+      <KanbanBoard />
     </main>
   );
 }
